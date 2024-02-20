@@ -35,7 +35,7 @@ foreach (var employee in employees)
         employeeWithMaxResult = employee;
         maxResult = employee.maxResult;
     }
-    
+
 }
-Console.WriteLine("Pracownik z najwyższą liczbą punktów: " + employeeWithMaxResult.Name + " "  +
+Console.WriteLine("Pracownik z najwyższą liczbą punktów: " + employeeWithMaxResult.Name + " " +
 employeeWithMaxResult.Surname + " " + employeeWithMaxResult.age + " " + "lat " + "z liczbą punktów" + " " + maxResult);

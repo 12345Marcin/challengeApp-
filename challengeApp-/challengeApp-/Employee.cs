@@ -15,6 +15,7 @@ namespace challengeApp_
         public string Name { get; private set; }
         public string Surname { get; private set; }
         public int age { get; private set; }
+        public int Result { get; private set; }
 
         public int maxResult
         {
